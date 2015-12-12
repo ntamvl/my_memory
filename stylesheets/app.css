@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:100);
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    Table of Contents
 -----------------------------------------------------
 :: Html and Body
@@ -20,6 +20,7 @@
 html, body, * {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
+  overflow: hidden;
 }
 
 #mobile-bg { display: none; }
@@ -305,25 +306,25 @@ a { color: #fff; }
 
 
 
-@media all and (max-width: 1365px) { 
+@media all and (max-width: 1365px) {
 	.row { width: 1024px; max-width: 100%; min-width: 1024px; margin: 0 auto; }
 	.time div ul li { list-style: none; font-size: 59px; line-height: 120px; }
 	.container-row { width: 1024px; height: 100%; margin: auto; padding-left: 13px; font-family: 'Roboto', sans-serif; font-weight: 100; }
-	.columns { text-align: center; font-family: 'Roboto', sans-serif; font-weight: 100; color: #fff; }	
+	.columns { text-align: center; font-family: 'Roboto', sans-serif; font-weight: 100; color: #fff; }
 	.box { height: 120px; padding: 0; line-height: 120px; font-size: 59px; }
 	.text { font-size: 28px; }
 	.counter .time { font-size: 59px; }
 	.panel { margin-bottom: 10px; }
 	.logo { font-size: 60px;  }
 	.logo-text { font-size: 45px; text-transform: lowercase; text-align: left; }
-}	
+}
 
 
 @media all and (min-width: 1366px) {
 	.row { width: 1366px; max-width: 100%; min-width: 1366px; margin: 0 auto; }
 	.time div ul li { list-style: none; font-size: 80px; line-height: 161px; }
 	.container-row { width: 1366px; height: 100%; margin: auto; font-family: 'Roboto', sans-serif; font-weight: 100; }
-	.columns { text-align: center; font-family: 'Roboto', sans-serif; font-weight: 100; color: #fff; }	
+	.columns { text-align: center; font-family: 'Roboto', sans-serif; font-weight: 100; color: #fff; }
 	.box { height: 161px; padding: 0; line-height: 161px; font-size: 80px; }
 	.text { font-size: 38px; }
 	.counter .time { font-size: 80px; }
@@ -379,7 +380,7 @@ a { color: #fff; }
 	.row { width: 300px; min-width: 1px; margin: 0 auto; }
 	.time div ul li { list-style: none; font-size: 60px; line-height: 134px; }
 	.container-row { width: 300px; height: 100%; margin: auto; font-family: 'Roboto', sans-serif; font-weight: 100; }
-	.columns { text-align: center; font-family: 'Roboto', sans-serif; font-weight: 100; color: #fff; }	
+	.columns { text-align: center; font-family: 'Roboto', sans-serif; font-weight: 100; color: #fff; }
 	.box { height: 134px; padding: 0; line-height: 134px; font-size: 60px; }
 	.text { font-size: 35px; padding-top: 22px; line-height: 29px; }
 	.text-time { font-size: 35px; padding-top: 0px; line-height: 134px; }
@@ -387,7 +388,7 @@ a { color: #fff; }
 	.logo { font-size: 60px;  }
 	.logo-text { font-size: 28px; text-transform: lowercase; text-align: left; }
 
-}	
+}
 
 
 
@@ -437,14 +438,14 @@ a { color: #fff; }
 	.row { width: 200px; min-width: 1px; margin: 0 auto; }
 	.time div ul li { list-style: none; font-size: 40px; line-height: 81px; }
 	.container-row { width: 200px; height: 100%; margin: auto; font-family: 'Roboto', sans-serif; font-weight: 100; }
-	.columns { text-align: center; font-family: 'Roboto', sans-serif; font-weight: 100; color: #fff; }	
+	.columns { text-align: center; font-family: 'Roboto', sans-serif; font-weight: 100; color: #fff; }
 	.box { height: 81px; padding: 0; line-height: 81px; font-size: 40px; }
 	.text { font-size: 22px; padding-top: 7px; line-height: 22px; }
 	.text-time { font-size: 21px; padding-top: 0px; line-height: 81px; }
 	.counter .time { font-size: 40px; line-height: 81px; }
 	.logo { font-size: 40px;  }
 	.logo-text { font-size: 23px; text-transform: lowercase; text-align: left; }
-}	
+}
 
 .padding0 { padding: 0; }
 .margin0 { margin: 0; }
